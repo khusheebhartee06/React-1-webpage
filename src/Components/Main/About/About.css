@@ -1,0 +1,32 @@
+#about{
+    background: url(../../../Images/banner2.jpg) no-repeat scroll;
+    background-size: cover;
+    padding: 30px 120px;
+    width:100% ;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-position: center;
+    text-align: center;
+}
+#about .about_content{
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+    transition: all 1s ease-in-out;
+}
+#about p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    word-break: break-all;
+    color: white;
+}
+#about p:last-child{
+    margin-bottom: 0px;
+}
+#about .content:hover{
+    background-color: rgba(255, 255, 255,0.7);
+}
+#about .content:hover p{
+    color: rgb(14, 14, 14);
+}

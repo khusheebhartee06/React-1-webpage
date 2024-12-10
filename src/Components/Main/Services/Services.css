@@ -1,0 +1,25 @@
+#services{
+    background: url(../../../Images/banner3.jpeg) no-repeat scroll;
+    background-size: cover;
+    padding: 50px 120px;
+    width:100% ;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-position: center;
+}
+
+#services .service_content{
+    background-color: rgba(7, 7, 7,0.7);
+    padding: 20px 0px;
+}
+#services p{
+    font-size: 20px;
+    color: rgb(206, 204, 204);
+    word-break: break-all;
+    transition: all 0.5s;
+    padding: 5px;
+}
+#services p:hover{
+    color:#00FFFF;
+    background-color: red;
+}

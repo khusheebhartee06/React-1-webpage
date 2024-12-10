@@ -1,0 +1,28 @@
+#contact{
+    background: url(../../../Images/banner5.webp) no-repeat scroll;
+    background-size: cover;
+    padding: 30px 120px;
+    width:100% ;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-position: center;
+}
+#contact .contact_content{
+    background-color: rgba(20, 20, 20,0.4);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+#contact p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    word-break: break-all;
+}
+#contact p:last-child{
+    margin-bottom: 0px;
+}
+#contact .contact_content:hover{
+background-color: rgba(12, 10, 10,0.8);
+}

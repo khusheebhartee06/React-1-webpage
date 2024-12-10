@@ -1,0 +1,27 @@
+#home{
+    background: url(../../../Images/banner1.png) no-repeat scroll;
+    background-size: cover;
+    padding: 50px 120px;
+    width:100% ;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-position: center;
+}
+#home #home_content{
+    
+    display: flex;
+    height: 100%;
+    gap: 40px;
+}
+#home p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    word-break: break-all;
+}
+@media screen and (max-width:991px) {
+    
+#home #row{
+    display: block;
+}
+}
